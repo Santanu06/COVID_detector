@@ -17,13 +17,11 @@
 
     public function search_date()
     {
-      
        $from = $this->input->post('from');
        $to = $this->input->post('to');
       $result = $this->Admin_model->searchDate($from,$to);
       $this->load->view('admin/search_data.php',['result'=>$result]);
     }
-    
     public function logout()
     {
       $this->session->unset_userdata('admin_id');

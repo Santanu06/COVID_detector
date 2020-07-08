@@ -59,7 +59,7 @@
       </div>
     </div>
   </div>
-  <!--Start Footer-->
+  
   <footer class="container-fluid bg-dark mt-5 text-white " style="position: fixed;
   bottom: 0; z-index: 100;" >
    <div class="container">
@@ -67,7 +67,7 @@
         <?php echo anchor('admin/Login_cont/index','Admin Login'); ?>
      </div>
    </div>
-
+  </footer>
 <?php include('footer.php'); ?>  
   
 

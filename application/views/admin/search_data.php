@@ -11,7 +11,6 @@
               <?php echo form_open('admin/Admin/search_date'); ?>
               <div class="form-group form-inline">
                 <?php
-
                   echo form_label('From','from',['class'=>'font-weight-bold mr-2']); 
                   echo form_input(['type'=>'date','name'=>'from','class'=>'form-control']);
                   echo form_label('To','to',['class'=>'font-weight-bold ml-2 mr-2']);
