@@ -1,0 +1,9 @@
+.heading {
+  color: azure;
+  padding-left: 50px;
+}
+.empty-table {
+  color : red;
+  font-size: 20px;
+  text-align: center;
+}
